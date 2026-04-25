@@ -24,17 +24,17 @@ This project demonstrates a perception pipeline for autonomous driving using dee
 
 1. Clone the repository:
 
-   git clone https://github.com/shivaramv357/semantic-segmentation-project.git
-
-   cd semantic-segmentation-project
+         git clone https://github.com/shivaramv357/semantic-segmentation-project.git
+      
+         cd semantic-segmentation-project
 
 3. Install dependencies:
 
-   pip install -r requirements.txt
+          pip install -r requirements.txt
 
 5. Run the project:
 
-   python main.py
+         python main.py
 
 ---
 
