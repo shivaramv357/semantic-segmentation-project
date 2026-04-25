@@ -1,6 +1,6 @@
 # Semantic Scene Understanding for Autonomous Driving (Video-Based)
 
-This project implements semantic segmentation using DeepLabV3 to understand road scenes. It processes video input frame-by-frame and overlays segmentation results.
+This project demonstrates a perception pipeline for autonomous driving using deep learning-based semantic segmentation.
 
 ---
 
@@ -56,4 +56,10 @@ This project implements semantic segmentation using DeepLabV3 to understand road
 ## 📌 Notes
  - Uses pretrained DeepLabV3 model
  - DeepLabV3 uses convolutional neural networks for pixel-wise classification
- - Optimized for faster inference using frame skipping
+ - Implemented frame skipping to improve inference speed while maintaining visual consistency
+
+---
+
+## Limitations
+- Uses pretrained model without fine-tuning
+- Performance may vary under different lighting/weather conditions
