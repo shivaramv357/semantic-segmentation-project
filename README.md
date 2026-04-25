@@ -24,20 +24,25 @@ This project implements semantic segmentation using DeepLabV3 to understand road
 
 1. Clone the repository:
 
-      git clone https://github.com/shivaramv357/semantic-segmentation-project.git
-      cd semantic-segmentation-project
+   git clone https://github.com/shivaramv357/semantic-segmentation-project.git
+
+   cd semantic-segmentation-project
 
 3. Install dependencies:
 
-      pip install -r requirements.txt
+   pip install -r requirements.txt
 
-4. Run the project:
+5. Run the project:
 
-      python main.py
+   python main.py
+
+---
 
 ## 📸 Output
 ### 🎥 Output Video
 [Click to watch video](outputs/output.mp4)
+
+---
 
 ## ⚙️ Pipeline
 
@@ -45,6 +50,8 @@ This project implements semantic segmentation using DeepLabV3 to understand road
   2. Frames are passed to DeepLabV3 model
   3. Model performs pixel-wise classification
   4. Segmentation output is overlaid on original frames
+
+---
 
 ## 📌 Notes
  - Uses pretrained DeepLabV3 model
