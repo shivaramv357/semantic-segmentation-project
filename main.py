@@ -78,7 +78,7 @@ while True:
     # Convert frame to RGB
     image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
-    # 🔥 Only run model every N frames
+    # Only run model every N frames
     if frame_count % skip_rate == 0 or last_overlay is None:
 
         input_tensor = transform(image).unsqueeze(0).to(device)
